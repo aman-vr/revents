@@ -26,3 +26,28 @@ export default function App() {
     </>
   );
 }
+
+//TUTORIAL SNIPPET : NOT WORKING
+
+// return (
+//     <>
+//       <Routes>
+//         <Route exact path="/" Component={HomePage} />
+//         <Route
+//           path={"/(.+)"}
+//           render={() => (
+//             <>
+//               <NavBar setFormOpen={handleCreateFormOpen} />
+//               <Container className="main">
+//                 <Routes>
+//           		<Route exact path="/events" Component={EventDashboard} />
+//           		<Route path="/events/:id" Component={EventDetailedPage} />
+//           		<Route path="/createEvent" Component={EventForm} />
+//         	</Routes>
+//               </Container>
+//             </>
+//           )}
+//         />
+//       </Routes>
+//     </>
+//   );
